@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# PlatziPunks Nft Marketplace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Link to project:** https://627d973f05b5871486c75ee8--zippy-arithmetic-b653b8.netlify.app/
 
-## Available Scripts
+![alt tag](https://ibb.co/7GWWtBJ)
 
-In the project directory, you can run:
+## How It's Made:
 
-### `npm start`
+**Tech used:** JavaScript, React, Solidity, Chakra-ui, Web3, Web3-react, Hardhat 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is an Nft marketplace where any wallet that is connected to the rinkeby network can buy PlatziPunks, the platzipunks nfts are made by a random online generator of avatars (https://getavataaars.com/) and uses an deterministic pseudo random function to generate their DNA because solidity is a deterministic language, that means that if this project is deployed in production it would be neccesary to use an oracle and generate a random function for the DNA, the URL to generate the avatars must be encoded in base64 because it will be built withing blockchain, this means that the metadata will be inside blockchain and it can't be modified. For the UI this porject uses chakra-ui, We3js and web3-react to interact with the smart contract. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Optimizations
 
-### `npm test`
+This projects is not responsive, so the UI and UX could be better.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Lessons Learned:
 
-### `npm run build`
+I  learn how to use hardhat to test and deploy smart contracts, how to use web3js and web3-react to interact with the smart contract and to detect if an address is connected, how to use chakra-ui and upgrade my react skills.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Examples:
+Take a look at these couple examples that I have in my own portfolio:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**CryptoBirz-Marketplace:** https://github.com/Jsebas1198/CryptoBirz-Marketplace
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Wave-Portal-Backend:** https://github.com/Jsebas1198/Wave-Portal-Backend-WEB3
 
-### `npm run eject`
+**Wave-Portal-Interface:** https://github.com/Jsebas1198/Wave-Portal-Interface-WEB3
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
