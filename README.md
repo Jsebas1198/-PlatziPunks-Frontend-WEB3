@@ -2,7 +2,9 @@
 
 **Link to project:** https://627d973f05b5871486c75ee8--zippy-arithmetic-b653b8.netlify.app/
 
-![alt tag](https://ibb.co/7GWWtBJ)
+![platzipunks](https://user-images.githubusercontent.com/96799477/168430401-c0fc7115-17ee-4f1d-ab3c-c05e2395d625.png)
+
+![platzipunks2](https://user-images.githubusercontent.com/96799477/168430419-9204803f-5ddf-4a7f-afd8-a31360a6bc57.png)
 
 ## How It's Made:
 
